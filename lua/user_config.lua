@@ -19,3 +19,4 @@ vim.opt.autoindent = true
 vim.opt.smartindent = true
 
 vim.g.node_host_prog = "/usr/local/bin/neovim-node-host"
+vim.g.sonokai_styel = "atlantis"
