@@ -20,3 +20,27 @@ vim.opt.smartindent = true
 
 vim.g.node_host_prog = "/usr/local/bin/neovim-node-host"
 vim.g.sonokai_styel = "atlantis"
+
+-- html文件语法高亮
+vim.api.nvim_exec(
+  [[
+  autocmd bufread,bufnewfile *.wxml setfiletype html
+]],
+  false
+)
+
+-- wxss文件语法高亮
+vim.api.nvim_exec(
+  [[
+  autocmd bufread,bufnewfile *.wxss setfiletype css
+]],
+  false
+)
+
+-- wxs文件语法高亮
+vim.api.nvim_exec(
+  [[
+  autocmd bufread,bufnewfile *.wxs setfiletype javascript
+]],
+  false
+)

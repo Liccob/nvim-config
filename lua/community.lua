@@ -15,6 +15,7 @@ return {
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.yaml" },
+  { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.recipes.vscode-icons" },
   { import = "astrocommunity.completion.tabnine-nvim" },
   { import = "astrocommunity.completion.cmp-cmdline" },
