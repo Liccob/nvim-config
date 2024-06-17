@@ -44,3 +44,6 @@ vim.api.nvim_exec(
 ]],
   false
 )
+
+-- vim.cmd.colorscheme = "carppuccin"
+-- vim.cmd "colorscheme onedark_vivid"

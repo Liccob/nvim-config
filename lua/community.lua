@@ -5,8 +5,9 @@
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
-  { import = "astrocommunity.colorscheme.catppuccin" },
-  -- { import = "astrocommunity.colorscheme.monokai-pro-nvim" },
+-- { import = "astrocommunity.colorscheme.catppuccin" },
+
+  { import = "astrocommunity.colorscheme.monokai-pro-nvim" },
   -- { import = "astrocommunity.colorscheme.tokyonight-nvim" },
   -- { import = "astrocommunity.colorscheme.sonokai" },
   -- { import = "astrocommunity.colorscheme.dracula-nvim" },
